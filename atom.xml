@@ -3,11 +3,11 @@
   <title>Mitchell&#39;s Blog</title>
   
   
-  <link href="http://harlylee.github.io/project/atom.xml" rel="self"/>
+  <link href="http://harlylee.github.io/atom.xml" rel="self"/>
   
-  <link href="http://harlylee.github.io/project/"/>
+  <link href="http://harlylee.github.io/"/>
   <updated>2021-08-21T07:02:27.751Z</updated>
-  <id>http://harlylee.github.io/project/</id>
+  <id>http://harlylee.github.io/</id>
   
   <author>
     <name>Mitchell</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://harlylee.github.io/project/2021/08/21/hello-world/"/>
-    <id>http://harlylee.github.io/project/2021/08/21/hello-world/</id>
+    <link href="http://harlylee.github.io/2021/08/21/hello-world/"/>
+    <id>http://harlylee.github.io/2021/08/21/hello-world/</id>
     <published>2021-08-20T16:50:00.000Z</published>
     <updated>2021-08-21T07:02:27.751Z</updated>
     
