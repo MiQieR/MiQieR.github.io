@@ -6,7 +6,7 @@
   <link href="http://harlylee.github.io/atom.xml" rel="self"/>
   
   <link href="http://harlylee.github.io/"/>
-  <updated>2021-08-24T02:08:31.116Z</updated>
+  <updated>2021-08-25T18:04:48.021Z</updated>
   <id>http://harlylee.github.io/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AltStore使用教程</title>
+    <link href="http://harlylee.github.io/2021/08/26/Tutorials/AltStore/"/>
+    <id>http://harlylee.github.io/2021/08/26/Tutorials/AltStore/</id>
+    <published>2021-08-25T17:50:00.000Z</published>
+    <updated>2021-08-25T18:04:48.021Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="AltStore有什么用？"><a href="#AltStore有什么用？" class="headerlink" title="AltStore有什么用？"></a>AltStore有什么用？</h2><p>想要使用一些违反苹果规定的iOS应用，只有通过以下几种方法：</p><p>​    伪装上架AppStore（如各种免费看电影电视剧软件）/上架Testflight（如PicACG）/上架越狱商店Cydia</p><p>以及，本文要介绍的AltStore。</p><p>AltStore还可以安装一些魔改的App，可以实现原App充会员才能解锁的功能，或去除某些限制</p><hr><h2 id="需要的工具-原料"><a href="#需要的工具-原料" class="headerlink" title="需要的工具/原料"></a>需要的工具/原料</h2><ul><li><p>一台运行iOS系统的设备（iPhone/iPad/iPod Touch均可）</p></li><li><p>一台可以上网的电脑（这里推荐使用MacOS 10.14.4以上，Windows10也可）</p></li><li><p>一条数据线</p></li></ul><hr><blockquote><p>Windows10版本安装方法详见<a href="https://altstore.io/faq/">https://altstore.io/faq/</a></p></blockquote><h2 id="安装AltServer（这里用MacOS演示）"><a href="#安装AltServer（这里用MacOS演示）" class="headerlink" title="安装AltServer（这里用MacOS演示）"></a>安装AltServer（这里用MacOS演示）</h2><ol><li>从AltServer官网下载AltServer</li></ol><p>这里是官网链接：<a href="https://altstore.io/">https://altstore.io/</a></p><p><img src="https://i.niupic.com/images/2021/08/26/9sT2.png" alt="下载AltServer"></p><ol start="2"><li>双击解压刚刚下载的altserver.zip，获得AltServer</li></ol><p><img src="https://i.niupic.com/images/2021/08/26/9sT3.png" alt="解压获得AltServer"></p><ol start="3"><li>将AltServer拖入应用程序中，完成安装</li></ol><p><img src="https://i.niupic.com/images/2021/08/26/9sT4.png" alt="安装AltServer"></p><ol start="4"><li>从启动台打开AltServer，在弹出的菜单中选择打开</li></ol><p><img src="https://i.niupic.com/images/2021/08/26/9sT5.png" alt="启动AltServer"></p><ol start="5"><li>用数据线连接电脑和iOS设备，点击AltServer状态栏图标，选择Install AltStore，选择你的iOS设备</li></ol><p><img src="https://i.niupic.com/images/2021/08/26/9sT7.png" alt="安装AltStore"></p><ol start="6"><li>在弹出的对话框内输入你的Apple ID和密码，然后点击Install</li></ol><p><img src="https://i.niupic.com/images/2021/08/26/9sT9.png" alt="输入Apple ID和密码"></p><ol start="7"><li><p>启动系统自带的邮件软件，在弹出的对话框中选择Install Plug-in，输入Mac的解锁密码</p></li><li><p>在出现Mail Plug-in Installed后，不要点击OK。打开邮件，选择左上角邮件 - 偏好设置 - 通用 - 管理插件，在AltPlugin.mailbundle上打钩，选择允许访问，然后点击应用并重启邮件。邮件重启后点击Mail Plug-in Installed窗口的OK</p></li></ol><p>​<img src="https://i.niupic.com/images/2021/08/26/9sTa.png" alt="安装插件"></p><ol start="9"><li>在弹出的窗口中选择Continue，左上角会弹出正在安装，静待一会儿，会弹出安装成功。此时你的iOS设备中就能看见名为AltStore的App了</li></ol><p><img src="https://i.niupic.com/images/2021/08/26/9sTb.png" alt="安装成功"></p><ol start="10"><li>打开iOS设备，选择设置 - 通用 - 描述文件与设备管理 - 点击开发者APP中你的Apple ID - 点击信任。然后AltStore就能启动了，在Settings里登陆你刚刚输入的Apple ID</li></ol><hr><h2 id="刷新AltStore和用其安装的应用"><a href="#刷新AltStore和用其安装的应用" class="headerlink" title="刷新AltStore和用其安装的应用"></a>刷新AltStore和用其安装的应用</h2><blockquote><p>因为苹果对开发者App的限制，AltStore和用其安装的应用只能使用7天，7天后将无法打开。所以需要使用AltServer为AltStore刷新使用期限</p></blockquote><ol><li><p>启动电脑上的AltServer和邮件</p></li><li><p>打开访达，选中你的iOS设备，钩选接入Wi-Fi时显示此iPhone/iPad</p></li></ol><p><img src="https://i.niupic.com/images/2021/08/26/9sTc.png" alt="接入Wi-Fi时显示此iPhone"></p><ol start="3"><li>让你的iOS设备与电脑在同一局域网下，打开AltStore，点击My Apps，点击Refresh All，静待一会儿即可刷新App的使用期限</li></ol><hr><h2 id="在AltStore中安装App"><a href="#在AltStore中安装App" class="headerlink" title="在AltStore中安装App"></a>在AltStore中安装App</h2><ol><li><p>在你的iOS设备中选择设置 - Safari浏览器 - 下载项 - 我的iPhone/iPad</p></li><li><p>启动AltServer（见“刷新AltStore和用其安装的应用“）</p></li><li><p>下载可以由AltStore安装的ipa文件</p></li><li><p>打开AltStore，点击My Apps，点击左上角加号，选中你下载的ipa文件，待进度条走到头，即安装完成</p></li></ol><blockquote><p>如有疑问，请见<a href="https://altstore.io/faq/">https://altstore.io/faq/</a></p></blockquote>]]></content>
+    
+    
+    <summary type="html">iOS免越狱第三方应用商店安装使用教程</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>固态硬盘(SSD)</title>
