@@ -6,7 +6,7 @@
   <link href="http://harlylee.github.io/atom.xml" rel="self"/>
   
   <link href="http://harlylee.github.io/"/>
-  <updated>2021-10-05T21:01:09.057Z</updated>
+  <updated>2021-10-05T21:24:54.729Z</updated>
   <id>http://harlylee.github.io/</id>
   
   <author>
@@ -18,12 +18,12 @@
   
   <entry>
     <title>解决战地风云4&quot;您已被PunkBuster驱逐&quot;</title>
-    <link href="http://harlylee.github.io/2021/10/06/Tutorials/%E8%A7%A3%E5%86%B3%E6%88%98%E5%9C%B0%E9%A3%8E%E4%BA%914%20%E2%80%9D%E6%82%A8%E5%B7%B2%E8%A2%ABPunkBuster%E9%A9%B1%E9%80%90%E2%80%9C/"/>
-    <id>http://harlylee.github.io/2021/10/06/Tutorials/%E8%A7%A3%E5%86%B3%E6%88%98%E5%9C%B0%E9%A3%8E%E4%BA%914%20%E2%80%9D%E6%82%A8%E5%B7%B2%E8%A2%ABPunkBuster%E9%A9%B1%E9%80%90%E2%80%9C/</id>
+    <link href="http://harlylee.github.io/2021/10/06/Tutorials/BF4&amp;PB/"/>
+    <id>http://harlylee.github.io/2021/10/06/Tutorials/BF4&amp;PB/</id>
     <published>2021-10-05T17:50:00.000Z</published>
-    <updated>2021-10-05T21:01:09.057Z</updated>
+    <updated>2021-10-05T21:24:54.729Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>你从Amazon花2元白嫖的战地4的Key之后，打开过这个游戏吗？<br>不会只玩了剧情，没有体验战地风云最最好玩的多人游戏吧？</p><p>多人游戏，启动！<br>选择服务器，极地监狱，进入！<br>复活，突突突（几秒后）…您已被PunkBuster驱逐！<br><img src="https://i.loli.net/2021/10/06/JhktT7sXfrDi9yx.jpg" alt="您已被PunkBuster驱逐"><br>我又没开挂，凭什么踢我？</p><h2 id="因为你没有（正确）安装反作弊器。"><a href="#因为你没有（正确）安装反作弊器。" class="headerlink" title="因为你没有（正确）安装反作弊器。"></a>因为你没有（正确）安装反作弊器。</h2><h2 id="反作弊器安装方法"><a href="#反作弊器安装方法" class="headerlink" title="反作弊器安装方法"></a>反作弊器安装方法</h2><ol><li><p>将Origin中战地4的启动方式改成x86，以后再启动游戏会像战地3一样使用浏览器选择服务器：Origin - 游戏库 - Battlefield4 - 设定 - 游戏属性 - 进阶启动选项 - 启动此游戏时… - Battlefield 4™ (x86)</p></li><li><p>下载最新版PB：访问<a href="https://www.evenbalance.com/downloads.php/">PunkBuster官网</a>，下载前两个（PBSetup 和 pbsvc），要下载最新的版本（撰写本文时，PBSetup的版本为<a href="https://www.evenbalance.com/downloads/W/gui/pbsetup.zip">3.8</a>，pbsvc的版本为<a href="https://www.evenbalance.com/downloads/pbsvc/pbsvc.exe">v0.994</a>）</p></li><li><p>卸载旧版PB：打开pbsvc.exe，选择Un-Install/Remove PunkBuster Service，点击Next</p></li><li><p>重启电脑</p></li><li><p>安装PB：解压pbsetup.zip，启动pbsetup.exe，选择I agree，选择Add a Game，选择Battlefield 4，Game Path中如果没有自动找到你的游戏目录，你需要手动选择一下，然后等待安装完成。安装完成后点击Update PunkBuster</p></li><li><p>安装PnkBstrA和PnkBstrB：打开pbsvc.exe，选择Install/Re-Install PunkBuster Service，点击Next直到安装完成</p></li></ol><hr><h2 id="再BB两句"><a href="#再BB两句" class="headerlink" title="再BB两句"></a>再BB两句</h2><p>如果你要玩欧服，加速器一定要选择带假延迟的，否则可能会因为ping过高被踢<br>记得一定要遵守服务器的规定！有的服务器有禁用的装备，强制使用可能会被踢</p><blockquote><p>AEK-971太强了，几乎所有人都在用……前期MX4还挺好用的，刚刚连续5杀爽歪歪</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>你从Amazon花2元白嫖的战地4的Key之后，打开过这个游戏吗？<br>不会只玩了剧情，没有体验战地风云最最好玩的多人游戏吧？</p><p>多人游戏，启动！<br>选择服务器，极地监狱，进入！<br>复活，突突突（几秒后）…您已被PunkBuster驱逐！<br><img src="https://i.loli.net/2021/10/06/JhktT7sXfrDi9yx.jpg" alt="您已被PunkBuster驱逐"><br>我又没开挂，凭什么踢我？</p><p><u>因为你没有（正确）安装反作弊器。</u></p><hr><h2 id="反作弊器安装方法"><a href="#反作弊器安装方法" class="headerlink" title="反作弊器安装方法"></a>反作弊器安装方法</h2><ol><li><p>将Origin中战地4的启动方式改成x86，以后再启动游戏会像战地3一样使用浏览器选择服务器：Origin - 游戏库 - Battlefield4 - 设定 - 游戏属性 - 进阶启动选项 - 启动此游戏时… - Battlefield 4™ (x86)</p></li><li><p>下载最新版PB：访问<a href="https://www.evenbalance.com/downloads.php/">PunkBuster官网</a>，下载前两个（PBSetup 和 pbsvc），要下载最新的版本（撰写本文时，PBSetup的版本为<a href="https://www.evenbalance.com/downloads/W/gui/pbsetup.zip">3.8</a>，pbsvc的版本为<a href="https://www.evenbalance.com/downloads/pbsvc/pbsvc.exe">v0.994</a>）</p></li><li><p>卸载旧版PB：打开pbsvc.exe，选择Un-Install/Remove PunkBuster Service，点击Next</p></li><li><p>重启电脑</p></li><li><p>安装PB：解压pbsetup.zip，启动pbsetup.exe，选择I agree，选择Add a Game，选择Battlefield 4，Game Path中如果没有自动找到你的游戏目录，你需要手动选择一下，然后等待安装完成。安装完成后点击Update PunkBuster</p></li><li><p>安装PnkBstrA和PnkBstrB：打开pbsvc.exe，选择Install/Re-Install PunkBuster Service，点击Next直到安装完成</p></li></ol><hr><h2 id="再BB两句"><a href="#再BB两句" class="headerlink" title="再BB两句"></a>再BB两句</h2><p>如果你要玩欧服，加速器一定要选择带假延迟的，否则可能会因为ping过高被踢<br>记得一定要遵守服务器的规定！有的服务器有禁用的装备，强制使用可能会被踢</p><blockquote><p>AEK-971太强了，几乎所有人都在用……前期MX4还挺好用的，刚刚连续5杀爽歪歪</p></blockquote>]]></content>
     
     
     <summary type="html">让你畅快体验战地4的多人模式，为2042做准备</summary>
