@@ -2,14 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://harlylee.github.io/2021/10/06/Tutorials/BF4&PB/</loc>
+    <loc>http://harlylee.github.io/2021/09/20/Tutorials/Hackintosh/</loc>
     
-    <lastmod>2021-10-08</lastmod>
+    <lastmod>2021-10-10</lastmod>
     
   </url>
   
   <url>
-    <loc>http://harlylee.github.io/2021/09/20/Tutorials/Hackintosh/</loc>
+    <loc>http://harlylee.github.io/2021/07/18/Purchase%20Advice/SSD/</loc>
+    
+    <lastmod>2021-10-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://harlylee.github.io/2021/10/06/Tutorials/BF4&PB/</loc>
     
     <lastmod>2021-10-08</lastmod>
     
@@ -26,13 +33,6 @@
     <loc>http://harlylee.github.io/2021/08/26/Tutorials/AltStore/</loc>
     
     <lastmod>2021-08-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://harlylee.github.io/2021/07/18/Purchase%20Advice/SSD/</loc>
-    
-    <lastmod>2021-08-24</lastmod>
     
   </url>
   
@@ -67,7 +67,7 @@
 
   <url>
     <loc>http://harlylee.github.io/</loc>
-    <lastmod>2021-10-08</lastmod>
+    <lastmod>2021-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
