@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://miqier.github.io/2021/10/26/Purchase%20Advice/NAS/</loc>
+    
+    <lastmod>2021-10-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://miqier.github.io/2021/09/16/Blog/Problem%20Fix/</loc>
+    
+    <lastmod>2021-10-26</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://miqier.github.io/2021/08/26/Tutorials/AltStore/</loc>
     
     <lastmod>2021-10-19</lastmod>
@@ -26,13 +40,6 @@
     <loc>http://miqier.github.io/2021/09/20/Tutorials/Hackintosh/</loc>
     
     <lastmod>2021-10-12</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://miqier.github.io/2021/09/16/Blog/Problem%20Fix/</loc>
-    
-    <lastmod>2021-09-24</lastmod>
     
   </url>
   
@@ -67,7 +74,7 @@
 
   <url>
     <loc>http://miqier.github.io/</loc>
-    <lastmod>2021-10-19</lastmod>
+    <lastmod>2021-10-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
