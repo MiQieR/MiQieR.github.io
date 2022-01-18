@@ -1,0 +1,39 @@
+- class_name: 朋友的网站
+  class_desc: 
+  link_list:    
+    - name: 蓝月饼的QQ机器人
+      link: https://astomaphere.github.io/
+      avatar: https://i.loli.net/2021/08/21/Xz6fNhRIadmEeFA.png
+      descr: 一个测运势超智能的bot
+    - name: Orange Tien
+      link: http://www.bytedance.fit/
+      avatar: https://i.loli.net/2021/08/23/1xj72aVJifMZone.png
+      descr: Tony的博客，分享计算机知识
+    - name: 毛球杂货箱
+      link: http://shinotak.com/
+      avatar: https://s2.loli.net/2021/12/23/gKYrpsE9baZohn5.png
+      descr: 还在建设，敬请期待
+
+- class_name: 有趣的网站
+  class_desc: 
+  link_list:
+    - name: FC游戏
+      link: https://game.gwliang.com/
+      avatar: https://i.loli.net/2021/08/21/gENq3caQF9AsvrX.png
+      descr: B站up高玩梁开设的在线FC游戏平台
+    - name: Picrew
+      link: https://picrew.me/image_maker/207297/
+      avatar: https://i.loli.net/2021/08/23/r3URGiE1m6FhQHX.png
+      descr: 在线捏二次元头像
+    - name: Wicked Backgrounds
+      link: https://wickedbackgrounds.com
+      avatar: https://i.loli.net/2021/08/23/16BkK8SZYD3VQJF.png
+      descr: 一键生成SVG格式波浪背景图片
+    - name: 小鸡词典
+      link: https://jikipedia.com/
+      avatar: https://s2.loli.net/2021/12/23/7BTNzQnplyGu86U.png
+      descr: 查网络用语
+    - name: emojimix
+      link: https://tikolu.net/emojimix/
+      avatar: https://s2.loli.net/2021/12/23/XQUmAHMedFCR7no.png
+      descr: 将两个emoji表情合成为一个
