@@ -2,56 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://miqier.github.io/2021/09/20/Tutorials/Hackintosh/</loc>
+    <loc>http://miqier.github.io/Blog/2021%20Yearly%20Inventory/</loc>
+    
+    <lastmod>2022-01-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://miqier.github.io/Tutorials/Hackintosh/</loc>
     
     <lastmod>2022-01-12</lastmod>
     
   </url>
   
   <url>
-    <loc>http://miqier.github.io/2021/10/06/Tutorials/BF4&PB/</loc>
+    <loc>http://miqier.github.io/Tutorials/BF4&PB/</loc>
     
     <lastmod>2022-01-01</lastmod>
     
   </url>
   
   <url>
-    <loc>http://miqier.github.io/2021/08/26/Tutorials/AltStore/</loc>
+    <loc>http://miqier.github.io/Tutorials/AltStore/</loc>
     
     <lastmod>2022-01-01</lastmod>
     
   </url>
   
   <url>
-    <loc>http://miqier.github.io/2021/07/18/Purchase%20Advice/SSD/</loc>
+    <loc>http://miqier.github.io/Purchase%20Advice/SSD/</loc>
     
     <lastmod>2022-01-01</lastmod>
     
   </url>
   
   <url>
-    <loc>http://miqier.github.io/2021/10/26/Purchase%20Advice/NAS/</loc>
+    <loc>http://miqier.github.io/Purchase%20Advice/NAS/</loc>
     
     <lastmod>2022-01-01</lastmod>
     
   </url>
   
   <url>
-    <loc>http://miqier.github.io/2021/09/16/Blog/Problem%20Fix/</loc>
+    <loc>http://miqier.github.io/Blog/Problem%20Fix/</loc>
     
     <lastmod>2022-01-01</lastmod>
     
   </url>
   
   <url>
-    <loc>http://miqier.github.io/2021/12/11/Blog/Linux%20Shell/</loc>
-    
-    <lastmod>2022-01-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://miqier.github.io/2022/01/01/Blog/2021%20Yearly%20Inventory/</loc>
+    <loc>http://miqier.github.io/Blog/Linux%20Shell/</loc>
     
     <lastmod>2022-01-01</lastmod>
     
@@ -97,6 +97,13 @@
 
   
   <url>
+    <loc>http://miqier.github.io/categories/%E7%9F%A5%E8%AF%86/</loc>
+    <lastmod>2022-01-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://miqier.github.io/categories/Blog/</loc>
     <lastmod>2022-01-18</lastmod>
     <changefreq>daily</changefreq>
@@ -112,13 +119,6 @@
   
   <url>
     <loc>http://miqier.github.io/categories/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2022-01-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://miqier.github.io/categories/%E7%9F%A5%E8%AF%86/</loc>
     <lastmod>2022-01-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
