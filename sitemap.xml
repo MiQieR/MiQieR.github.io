@@ -4,26 +4,33 @@
   <url>
     <loc>http://miqier.github.io/Blog/2021%20Yearly%20Inventory/</loc>
     
-    <lastmod>2022-01-18</lastmod>
+    <lastmod>2022-01-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://miqier.github.io/Purchase%20Advice/Email%20Review/</loc>
+    
+    <lastmod>2022-01-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://miqier.github.io/Tutorials/AltStore/</loc>
+    
+    <lastmod>2022-01-21</lastmod>
     
   </url>
   
   <url>
     <loc>http://miqier.github.io/Tutorials/Hackintosh/</loc>
     
-    <lastmod>2022-01-12</lastmod>
+    <lastmod>2022-01-19</lastmod>
     
   </url>
   
   <url>
     <loc>http://miqier.github.io/Tutorials/BF4&PB/</loc>
-    
-    <lastmod>2022-01-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://miqier.github.io/Tutorials/AltStore/</loc>
     
     <lastmod>2022-01-01</lastmod>
     
@@ -88,7 +95,7 @@
 
   <url>
     <loc>http://miqier.github.io/</loc>
-    <lastmod>2022-01-18</lastmod>
+    <lastmod>2022-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -97,29 +104,36 @@
 
   
   <url>
-    <loc>http://miqier.github.io/categories/%E7%9F%A5%E8%AF%86/</loc>
-    <lastmod>2022-01-18</lastmod>
+    <loc>http://miqier.github.io/categories/Blog/</loc>
+    <lastmod>2022-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://miqier.github.io/categories/Blog/</loc>
-    <lastmod>2022-01-18</lastmod>
+    <loc>http://miqier.github.io/categories/%E7%9F%A5%E8%AF%86/</loc>
+    <lastmod>2022-01-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://miqier.github.io/categories/%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2022-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://miqier.github.io/categories/%E9%80%89%E8%B4%AD%E5%BB%BA%E8%AE%AE/</loc>
-    <lastmod>2022-01-18</lastmod>
+    <lastmod>2022-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://miqier.github.io/categories/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2022-01-18</lastmod>
+    <lastmod>2022-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
