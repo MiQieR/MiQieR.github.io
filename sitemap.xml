@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://miqier.github.io/Blog/2021%20Yearly%20Inventory/</loc>
+    <loc>http://miqier.github.io/Purchase%20Advice/Email%20Review/</loc>
     
     <lastmod>2022-01-21</lastmod>
     
   </url>
   
   <url>
-    <loc>http://miqier.github.io/Purchase%20Advice/Email%20Review/</loc>
+    <loc>http://miqier.github.io/Blog/2021%20Yearly%20Inventory/</loc>
     
     <lastmod>2022-01-21</lastmod>
     
@@ -118,6 +118,13 @@
   </url>
   
   <url>
+    <loc>http://miqier.github.io/categories/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2022-01-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://miqier.github.io/categories/%E8%BD%AF%E4%BB%B6/</loc>
     <lastmod>2022-01-21</lastmod>
     <changefreq>daily</changefreq>
@@ -126,13 +133,6 @@
   
   <url>
     <loc>http://miqier.github.io/categories/%E9%80%89%E8%B4%AD%E5%BB%BA%E8%AE%AE/</loc>
-    <lastmod>2022-01-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://miqier.github.io/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2022-01-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
