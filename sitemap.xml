@@ -104,14 +104,14 @@
 
   
   <url>
-    <loc>http://miqier.github.io/categories/Blog/</loc>
+    <loc>http://miqier.github.io/categories/%E8%BD%AF%E4%BB%B6/</loc>
     <lastmod>2022-01-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://miqier.github.io/categories/%E7%9F%A5%E8%AF%86/</loc>
+    <loc>http://miqier.github.io/categories/Blog/</loc>
     <lastmod>2022-01-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -125,7 +125,7 @@
   </url>
   
   <url>
-    <loc>http://miqier.github.io/categories/%E8%BD%AF%E4%BB%B6/</loc>
+    <loc>http://miqier.github.io/categories/%E7%9F%A5%E8%AF%86/</loc>
     <lastmod>2022-01-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
