@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://mitchellsbox.ml/Purchase%20Advice/SSD/</loc>
+    <loc>https://mitchellsbox.ml/Tutorials/GithubPage+Freenom+Cloudflare/</loc>
     
     <lastmod>2022-01-28</lastmod>
     
   </url>
   
   <url>
-    <loc>https://mitchellsbox.ml/Tutorials/GithubPage+Freenom+Cloudflare/</loc>
+    <loc>https://mitchellsbox.ml/Purchase%20Advice/SSD/</loc>
     
     <lastmod>2022-01-28</lastmod>
     
@@ -118,20 +118,6 @@
 
   
   <url>
-    <loc>https://mitchellsbox.ml/categories/%E8%BD%AF%E4%BB%B6/</loc>
-    <lastmod>2022-01-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://mitchellsbox.ml/categories/%E9%80%89%E8%B4%AD%E5%BB%BA%E8%AE%AE/</loc>
-    <lastmod>2022-01-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://mitchellsbox.ml/categories/Blog/</loc>
     <lastmod>2022-01-28</lastmod>
     <changefreq>daily</changefreq>
@@ -140,6 +126,20 @@
   
   <url>
     <loc>https://mitchellsbox.ml/categories/%E7%9F%A5%E8%AF%86/</loc>
+    <lastmod>2022-01-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mitchellsbox.ml/categories/%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2022-01-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mitchellsbox.ml/categories/%E9%80%89%E8%B4%AD%E5%BB%BA%E8%AE%AE/</loc>
     <lastmod>2022-01-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
