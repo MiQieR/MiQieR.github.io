@@ -2,20 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://mitchellsbox.ml/Blog/Problem%20Fix/</loc>
-    
-    <lastmod>2022-03-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mitchellsbox.ml/Tutorials/Media%20Library/</loc>
-    
-    <lastmod>2022-03-23</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://mitchellsbox.ml/Tutorials/Hackintosh/</loc>
     
     <lastmod>2022-03-23</lastmod>
@@ -26,13 +12,6 @@
     <loc>https://mitchellsbox.ml/Knowledge/Markdown%20Advancement/</loc>
     
     <lastmod>2022-03-23</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mitchellsbox.ml/Tutorials/Connect%20to%20Public%20Network/</loc>
-    
-    <lastmod>2022-03-22</lastmod>
     
   </url>
   
@@ -100,6 +79,13 @@
   </url>
   
   <url>
+    <loc>https://mitchellsbox.ml/Blog/Problem%20Fix/</loc>
+    
+    <lastmod>2022-01-01</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://mitchellsbox.ml/Knowledge/Linux%20Shell/</loc>
     
     <lastmod>2022-01-01</lastmod>
@@ -153,13 +139,6 @@
   </url>
   
   <url>
-    <loc>https://mitchellsbox.ml/categories/%E8%BD%AF%E4%BB%B6/</loc>
-    <lastmod>2022-03-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://mitchellsbox.ml/categories/%E9%80%89%E8%B4%AD%E5%BB%BA%E8%AE%AE/</loc>
     <lastmod>2022-03-30</lastmod>
     <changefreq>daily</changefreq>
@@ -168,6 +147,13 @@
   
   <url>
     <loc>https://mitchellsbox.ml/categories/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2022-03-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mitchellsbox.ml/categories/%E8%BD%AF%E4%BB%B6/</loc>
     <lastmod>2022-03-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
