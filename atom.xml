@@ -6,7 +6,7 @@
   <link href="https://mitchellsbox.ml/atom.xml" rel="self"/>
   
   <link href="https://mitchellsbox.ml/"/>
-  <updated>2022-03-23T19:54:30.360Z</updated>
+  <updated>2022-03-31T02:45:22.775Z</updated>
   <id>https://mitchellsbox.ml/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>外网访问家庭内网</title>
+    <link href="https://mitchellsbox.ml/Tutorials/Connect%20to%20Public%20Network/"/>
+    <id>https://mitchellsbox.ml/Tutorials/Connect%20to%20Public%20Network/</id>
+    <published>2022-03-23T03:32:00.000Z</published>
+    <updated>2022-03-31T02:45:22.775Z</updated>
+    
+    <content type="html"><![CDATA[<p>一般来说，如果想要远程管理家里的计算机，要么需要使用TeamViewer、向日葵等远程桌面软件，要么需要一种可以在外网访问家庭内网的方法。常见的方法主要有两种：内网穿透或将内网接入公网。</p><hr><h2 id="什么是内网、外网和公网？"><a href="#什么是内网、外网和公网？" class="headerlink" title="什么是内网、外网和公网？"></a>什么是内网、外网和公网？</h2><blockquote><p>这一部分涉及大量计算机网络的知识，所以我尽可能写得让每个人都能看懂，而且不去讲具体的原理。如果你仍然看不懂，请自行百度/Google</p></blockquote><ol><li><p>内网，即局域网(LAN)，一般可通过查看网卡ip地址判断，如果你的网卡显示ip是以下范围中的一个，就说明你现在处于局域网中：</p><ul><li>10.0.0.0～10.255.255.255</li><li>172.16.0.0～172.31.255.255</li><li>192.168.0.0～192.168.255.255</li></ul></li><li><p>外网，即广域网(WAN)，可以理解为一个巨大的局域网，通常是一个城市甚至几个国家。有一点要注意，目前的网络服务提供商(<strong>ISP</strong>，在国内就是移动联通电信)，通常在本地会有一个大一点的局域网（也就是广域网），整个广域网共用一个公网ip与因特网连接，本地ISP会有一个服务器负责将那一个ip发送/收到的数据转发到你家的网络</p></li><li><p>公网，是相对于内网而言的，是最大的广域网（但是这里不把它归类为广域网）。判断方法为ip非上述提到的内网ip，就是在因特网的上的地址，即为公网ip</p></li></ol><p>然后你只需要知道一点，想要在家里WiFi以外的任何网络访问家里的电脑/NAS/服务器，也就是你需要要么打一个“隧道”连接内网和公网，要么让家里的局域网摆脱ISP的广域网转发（即拥有一个只属于你的公网ip）</p><hr><h2 id="如何判断当前网络是否处于广域网中"><a href="#如何判断当前网络是否处于广域网中" class="headerlink" title="如何判断当前网络是否处于广域网中"></a>如何判断当前网络是否处于广域网中</h2><p>检查你家网络离出口最近的设备（光猫或者带路由功能的光猫）显示的ip，是否与<a href="https://ip.cn/">ip.cn</a>显示的ip相同。不相同，即你正处于广域网中；相反，则恭喜你，你已经拥有公网ip了，正处于公网中。</p><hr><h2 id="连通家庭内网和公网"><a href="#连通家庭内网和公网" class="headerlink" title="连通家庭内网和公网"></a>连通家庭内网和公网</h2><h3 id="方法一：内网穿透"><a href="#方法一：内网穿透" class="headerlink" title="方法一：内网穿透"></a>方法一：内网穿透</h3><p>基本原理是在你需要连通的设备们上都安装内网穿透软件，搭建一个虚拟的局域网，软件会将网络数据转发到服务器，然后再转发到虚拟局域网中的你的另一台设备上</p><ol><li>选择提供内网穿透的产品。常见的有花生壳、ZeroTier等</li><li>注册账号</li><li>建立一个虚拟局域网</li><li>在你的每个需要连通的设备上都安装该软件</li><li>登陆账号/输入虚拟局域网ID，连接虚拟局域网</li></ol><p>恭喜你，已经连通了</p><h3 id="方法二：公网IP和DDNS"><a href="#方法二：公网IP和DDNS" class="headerlink" title="方法二：公网IP和DDNS"></a>方法二：公网IP和DDNS</h3><p>因为目前服务提供商的公网ip严重不够用，所以一般来说服务提供商给你的公网ip是动态的。这时候就需要DDNS：</p><p>DDNS的原理是内网中任意一台设备，获取当前内网通向因特网的公网ip，然后将它发给DDNS服务器，DDNS服务器会将你的一个域名映射到这个公网ip。这样你只需要在外面访问该域名即可，并且用端口号来区分是访问具体哪个设备的哪个软件/服务</p><ol><li><p>打电话给你家宽带/光纤的服务提供商，表示需要公网ip（如果问你原因，就说家里有老人，需要安装监控）</p></li><li><p>选择一个DDNS服务，注册账号并获取分给你的域名</p></li><li><p>在内网的一台设备上运行你选择的DDNS服务（有的设备自带DDNS服务，电脑设备一般需要安装DDNS提供商的软件）</p></li><li><p>在光猫、路由器上设置固定ip（给需要连通的设备）</p></li><li><p>在光猫、路由器上设置端口映射（或称为端口转发）</p><ul><li>如果你是带路由功能的光猫连接电脑/NAS，只需要在光猫上设置端口映射，ip填写需要连通的设备，内部和外部端口号填写需要连通的软件/服务的端口号（这里为了安全，其实是可以改一下外部端口号的，但是你不知道哪些端口号被占用就不要改）</li><li>如果你是带路由功能的光猫连接主路由，则在它们上面都需要设置端口映射：光猫映射路由，路由映射需要连通的设备</li></ul></li><li><p>理论上这时就连通了。这时测试的话，可以用手机数据流量，访问DDNS提供商给你的域名+端口号即可（格式为域名:端口号，例如<a href="http://example.xyz:8405）">http://example.xyz:8405）</a></p></li></ol><hr><h2 id="方法一-vs-方法二"><a href="#方法一-vs-方法二" class="headerlink" title="方法一 vs. 方法二"></a>方法一 vs. 方法二</h2><table><thead><tr><th align="center"></th><th align="center">方法一：内网穿透</th><th align="center">方法二：公网IP和DDNS</th></tr></thead><tbody><tr><td align="center">难点</td><td align="center">内网穿透服务提供商的速度和价格</td><td align="center">ISP能否给你公网ip</td></tr><tr><td align="center">速度</td><td align="center">上限通常取决于内网穿透服务提供商允许你的最高速度</td><td align="center">上限取决于家里光纤的上传速度</td></tr><tr><td align="center">延迟</td><td align="center">较高（服务器转发）</td><td align="center">低</td></tr><tr><td align="center">安全性</td><td align="center">较高</td><td align="center">较低（内网暴露在公网中）</td></tr><tr><td align="center">注意事项</td><td align="center">免费的通常速度不佳（付费的也没多好）</td><td align="center">DDNS服务提供商的服务器可能会出问题</td></tr></tbody></table><hr><h2 id="谈谈我的使用经历和经验"><a href="#谈谈我的使用经历和经验" class="headerlink" title="谈谈我的使用经历和经验"></a>谈谈我的使用经历和经验</h2><ul><li><p>ZeroTier刚刚连接的时候速度很慢，过一会儿网速才会正常</p></li><li><p>2022年3月28日，Oray的免费服务器几乎宕机了一整天，受影响的包括花生壳DDNS和内网穿透的免费用户</p></li><li><p>一开始我以为DDNS服务必须运行在内网的出口设备（光猫）上。然而广东电信的光猫设置DDNS一直失败，主路由的华硕路由则显示当前处于内网中，可能无法启用DDNS。跟朋友交流后得知，可以上网搜索当地电信的光猫超级管理员账号和密码，通过ssh将其设置为单纯的Modem模式（DHCP客户端），然后用主路由拨号（PPPoE）</p></li><li><p><strong>我推荐使用方法二：公网IP和DDNS</strong></p></li></ul>]]></content>
+    
+    
+    <summary type="html">几种让你可以从外网访问家庭内网的方法和教程</summary>
+    
+    
+    
+    <category term="教程" scheme="https://mitchellsbox.ml/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Markdown进阶</title>
