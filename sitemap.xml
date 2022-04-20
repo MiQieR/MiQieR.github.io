@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mitchellsbox.ml/Tutorials/Media%20Library/</loc>
+    
+    <lastmod>2022-04-20</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://mitchellsbox.ml/Tutorials/Connect%20to%20Public%20Network/</loc>
     
     <lastmod>2022-03-31</lastmod>
@@ -123,7 +130,7 @@
 
   <url>
     <loc>https://mitchellsbox.ml/</loc>
-    <lastmod>2022-03-31</lastmod>
+    <lastmod>2022-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -133,35 +140,35 @@
   
   <url>
     <loc>https://mitchellsbox.ml/categories/Blog/</loc>
-    <lastmod>2022-03-31</lastmod>
+    <lastmod>2022-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://mitchellsbox.ml/categories/%E7%9F%A5%E8%AF%86/</loc>
-    <lastmod>2022-03-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://mitchellsbox.ml/categories/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2022-03-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://mitchellsbox.ml/categories/%E8%BD%AF%E4%BB%B6/</loc>
-    <lastmod>2022-03-31</lastmod>
+    <lastmod>2022-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://mitchellsbox.ml/categories/%E9%80%89%E8%B4%AD%E5%BB%BA%E8%AE%AE/</loc>
-    <lastmod>2022-03-31</lastmod>
+    <lastmod>2022-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mitchellsbox.ml/categories/%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2022-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mitchellsbox.ml/categories/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2022-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
