@@ -6,7 +6,7 @@
   <link href="https://mitchellsbox.ml/atom.xml" rel="self"/>
   
   <link href="https://mitchellsbox.ml/"/>
-  <updated>2022-04-20T13:52:48.270Z</updated>
+  <updated>2022-04-25T18:25:14.303Z</updated>
   <id>https://mitchellsbox.ml/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Tampermonkey脚本推荐</title>
+    <link href="https://mitchellsbox.ml/Purchase%20Advice/Tampermonkey%20Script%20Recommend/"/>
+    <id>https://mitchellsbox.ml/Purchase%20Advice/Tampermonkey%20Script%20Recommend/</id>
+    <published>2022-04-25T16:02:21.000Z</published>
+    <updated>2022-04-25T18:25:14.303Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="什么是Tampermonkey？"><a href="#什么是Tampermonkey？" class="headerlink" title="什么是Tampermonkey？"></a>什么是Tampermonkey？</h3><p>Tampermonkey是一款浏览器的扩展，用户可以通过Tampermonkey添加和使用脚本，而脚本是一种可以修改网页JavaScript的程序。目前可被用于Google Chrome，Microsoft Edge，Apple Safari，Firefox，Opera等主流浏览器中。</p><p>Tampermonkey的官网：<a href="https://www.tampermonkey.net/">https://www.tampermonkey.net/</a></p><p>获得其他人编写的脚本的网站Greasy Fork：<a href="https://greasyfork.org/">https://greasyfork.org/</a></p><h3 id="脚本推荐"><a href="#脚本推荐" class="headerlink" title="脚本推荐"></a>脚本推荐</h3><h4 id="1、右键在新标签中打开图片时显示最优化图像质量"><a href="#1、右键在新标签中打开图片时显示最优化图像质量" class="headerlink" title="1、右键在新标签中打开图片时显示最优化图像质量"></a>1、右键在新标签中打开图片时显示最优化图像质量</h4><p><a href="https://greasyfork.org/zh-CN/scripts/2312-resize-image-on-open-image-in-new-tab">从Greasy Fork安装</a> | <a href="https://greasyfork.org/zh-CN/users/2646-clso">作者主页</a></p><p>适用网站：所有网站</p><h4 id="2、网盘智能识别助手"><a href="#2、网盘智能识别助手" class="headerlink" title="2、网盘智能识别助手"></a>2、网盘智能识别助手</h4><p><a href="https://greasyfork.org/zh-CN/scripts/422960-%E7%BD%91%E7%9B%98%E6%99%BA%E8%83%BD%E8%AF%86%E5%88%AB%E5%8A%A9%E6%89%8B">从Greasy Fork安装</a> | <a href="https://www.baiduyun.wiki/tool/install-panai.html">插件官网</a></p><p>适用网站：百度网盘，阿里云盘，腾讯微云，蓝奏云，天翼云盘，迅雷云盘，城通网盘，夸克网盘，360云盘，115网盘，奶牛快传，和彩云，123云盘，Chrome/Edge/Firefox扩展商店</p><p>使用方法：鼠标选中含网盘链接的文字，被选中区域背景会变成蓝色（容错性很高，选多或选少了也可以智能识别），若包含网盘链接和提取码，上方会出现提示，点击打开会自动打开链接并填写提取码。</p><h4 id="3、网盘直链下载助手"><a href="#3、网盘直链下载助手" class="headerlink" title="3、网盘直链下载助手"></a>3、网盘直链下载助手</h4><p><a href="https://greasyfork.org/zh-CN/scripts/436446-%E7%BD%91%E7%9B%98%E7%9B%B4%E9%93%BE%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B">从Greasy Fork安装</a> | <a href="https://www.baiduyun.wiki/install.html#%E7%BD%91%E7%9B%98%E7%9B%B4%E9%93%BE%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B">插件官网</a></p><p>适用网站：百度网盘，阿里云盘，天翼云盘，迅雷云盘</p><p>基于 PCSAPI，支持 Windows，Mac，Linux 等多平台，支持 IDM，XDown，Aria2 等多线程下载工具，支持 JSON-RPC 协议远程下载，支持 cURL 命令下载。作者建议配合超级会员使用。</p><h4 id="4、-自动无缝翻页"><a href="#4、-自动无缝翻页" class="headerlink" title="4、 自动无缝翻页"></a>4、 自动无缝翻页</h4><p><a href="https://greasyfork.org/zh-CN/scripts/419215-%E8%87%AA%E5%8A%A8%E6%97%A0%E7%BC%9D%E7%BF%BB%E9%A1%B5">从Greasy Fork安装</a> | <a href="https://github.com/XIU2/UserScript">作者GitHub主页</a></p><p>兼容大量网站，包括各种搜索引擎、论坛、漫画网站和一些其他网站（包括但不限于贴吧、豆瓣、知乎、哔哩哔哩、NGA、V2EX、Pixiv、3DM、游侠网、游民星空、Steam 创意工坊、SubHD、扩展迷、小众软件、Github、StackOverflow等等）</p><p>注意事项：安装脚本后，首次打开网页会获取外置翻页规则，大概只需要几秒，在此期间不要跳转、关闭当前网页。</p><hr><p>未完待续</p>]]></content>
+    
+    
+    <summary type="html">推荐几个我觉得超棒的Tampermonkey Script</summary>
+    
+    
+    
+    <category term="软件" scheme="https://mitchellsbox.ml/categories/%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>管理你的个人媒体库</title>
