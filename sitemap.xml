@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mitchellsbox.ml/Blog/Problem%20Fix/</loc>
+    
+    <lastmod>2022-05-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://mitchellsbox.ml/Tutorials/BF4&PB/</loc>
+    
+    <lastmod>2022-05-11</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://mitchellsbox.ml/Purchase%20Advice/NAS/</loc>
     
     <lastmod>2022-05-01</lastmod>
@@ -93,20 +107,6 @@
   </url>
   
   <url>
-    <loc>https://mitchellsbox.ml/Tutorials/BF4&PB/</loc>
-    
-    <lastmod>2022-01-01</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mitchellsbox.ml/Blog/Problem%20Fix/</loc>
-    
-    <lastmod>2022-01-01</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://mitchellsbox.ml/Knowledge/Linux%20Shell/</loc>
     
     <lastmod>2022-01-01</lastmod>
@@ -137,7 +137,7 @@
 
   <url>
     <loc>https://mitchellsbox.ml/</loc>
-    <lastmod>2022-05-01</lastmod>
+    <lastmod>2022-05-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -147,35 +147,35 @@
   
   <url>
     <loc>https://mitchellsbox.ml/categories/Blog/</loc>
-    <lastmod>2022-05-01</lastmod>
+    <lastmod>2022-05-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://mitchellsbox.ml/categories/%E7%9F%A5%E8%AF%86/</loc>
-    <lastmod>2022-05-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://mitchellsbox.ml/categories/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2022-05-01</lastmod>
+    <lastmod>2022-05-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://mitchellsbox.ml/categories/%E8%BD%AF%E4%BB%B6/</loc>
-    <lastmod>2022-05-01</lastmod>
+    <lastmod>2022-05-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://mitchellsbox.ml/categories/%E9%80%89%E8%B4%AD%E5%BB%BA%E8%AE%AE/</loc>
-    <lastmod>2022-05-01</lastmod>
+    <lastmod>2022-05-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mitchellsbox.ml/categories/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2022-05-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
